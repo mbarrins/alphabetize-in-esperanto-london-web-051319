@@ -5,6 +5,8 @@ def alphabetize(arr)
   # ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   # binding.pry
   # arr.sort_by{|str| str.map}
+  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  arr.map{|str| str.chars.inject([] {|result, char| result (
 end
 
 arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]

@@ -6,5 +6,5 @@ def alphabetize(arr)
   arr.sort_by{|str| str.chars.inject([]) {|result, char| result << (ESPERANTO_ALPHABET.index(char) || char)}}
 end
 
-arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
-puts alphabetize(arr)
+# arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]
+# puts alphabetize(arr).inspect

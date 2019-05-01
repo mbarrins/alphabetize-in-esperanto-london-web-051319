@@ -3,7 +3,7 @@ require "pry"
 def alphabetize(arr)
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   binding.pry
-  arr.sort_by{|str| str.map}
+  # arr.sort_by{|str| str.map}
 end
 
 arr = ["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"]

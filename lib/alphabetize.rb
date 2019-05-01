@@ -1,8 +1,9 @@
 require "pry"
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
   # binding.pry
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  
   arr.sort_by{|str| str.chars.inject([]) {|result, char| result << (ESPERANTO_ALPHABET.index(char) || char)}}
 end
 

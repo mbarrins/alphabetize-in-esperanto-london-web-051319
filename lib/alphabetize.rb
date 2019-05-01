@@ -2,6 +2,7 @@ require "pry"
 
 def alphabetize(arr)
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  binding.pry
   arr.sort_by{|str| str.map}
 end
 
